@@ -1,0 +1,6 @@
+---
+:project_name: AirlineDemo
+:platforms:
+- ios
+- droid
+- web
