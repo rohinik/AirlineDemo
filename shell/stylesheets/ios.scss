@@ -1,0 +1,10 @@
+@import "reset";
+@import "app";
+@import "device";
+
+body {
+  background-color: #61224d;
+  .page-title {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+%div#flightSearch.page
+  %h3.page-title Flight Search
+  .box
+    .flight-search-form
+      .inputbox
+        %input#returnTripChkBox(type="checkbox"
+          checked="true" )
+        %label.form-label Return Trip
+      .inputbox
+        %input#fromAirportInput(required="required"
+          placeholder="Departing"
+          type="text"
+          value=""
+          size="10"
+          tabindex="1"
+          autofocus="autofocus")
+      .inputbox
+        %input#toAirportInput(required="required"
+          placeholder="Arriving at"
+          type="text"
+          value=""
+          size="10"
+          tabindex="2")
+      .inputbox
+        %select#travelDate(required="required" tabindex="3")
+          %option(value='today') Today
+          %option(value='tomorrow') Tomorrow
+      %input.search#lookupFlightStatus(type="button" value="Search Flights")

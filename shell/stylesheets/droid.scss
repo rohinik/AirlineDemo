@@ -1,0 +1,9 @@
+@import "reset";
+@import "app";
+@import "device";
+
+body {
+  .viewport {
+    min-height: 500px;
+  }
+}

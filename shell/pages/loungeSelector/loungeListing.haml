@@ -1,0 +1,35 @@
+%div#loungeListing.page
+  %h3.page-title SkyTeam Lounges
+  .box
+    .search-box
+      %input#predictive_airport_code(type="text" placeholder="Search Airport")
+    .result-container
+      %div#matched_lounge_list
+      %div#matched_predictive_airport_codes_list.airport-list-container.hidden
+  %script(id="lounge_list_tmpl" type="text/html")
+    .list-title {{airport}}
+    %ul.lounge-list
+      {{#lounges}}
+      %li.lounge
+        %h4.lounge-name {{name}}
+        .amenities
+          %div(class="amenity shower {{shower}}")
+          %div(class="amenity wheelchair {{handicap_friendly}}")
+          %div(class="amenity wifi {{wifi}}")
+          %div(class="amenity wired {{wired}}")
+        .lounge-timing {{timings}}
+        .lounge-location {{location}}
+      {{/lounges}}
+      {{^lounges}}
+      .no-match No Matches Found
+      {{/lounges}}
+  %script(id="airport_code_list_tmpl" type="text/html")
+    .list-title Select An Airport
+    %ul
+      {{#airports}}
+      %li.airport-code(data-code="{{ Code }}")
+        %a.airport-link(href="#" data-code="{{ Code }}") {{ Name }}
+      {{/airports}}
+      {{^airports}}
+      .no-match No Matches Found
+      {{/airports}}

@@ -1,0 +1,55 @@
+%div#flightStatusQuery.page
+  %h3.page-title Flight Status Query
+  .box
+    .flight-status-form
+      .inputbox
+        %input#fromAirportInput(required="required"
+          placeholder="Departing"
+          type="text"
+          value=""
+          size="10"
+          tabindex="1"
+          autofocus="autofocus")
+      .inputbox
+        %input#toAirportInput(required="required"
+          placeholder="Arriving at"
+          type="text"
+          value=""
+          size="10"
+          tabindex="2")
+      %input.search#lookupFlightStatus(type="button" value="Search Flights")
+      %div#predictiveAirportSuggestion.airport-list-container.hidden
+        %script(id="airport_suggestion_tmpl" type="text/html")
+          %ul
+            {{#airports}}
+            %li.airport-code(data-code="{{ Code }}")
+              <a href="#" class="{{ type }}-airport-link" data-code="{{ Code }}" data-type="{{ type }}"> {{ Name }} </a>
+            {{/airports}}
+            {{^airports}}
+            .no-match No Matches Found
+            {{/airports}}
+
+    %div#flightStatusesResult.hidden
+    %script(id="flight_status_tmpl" type="text/html")
+      %ul.fight-status-list
+        {{#flights}}
+        %li.flight-status
+          %h4.airline
+            {{airline}}
+            %span.flight-code {{flightCode}}
+          .status
+            Status :
+            %span(class="status-code {{status}}") {{status}}
+          .duration Duration : {{duration}}
+          .departure
+            Departure :
+            %span.airport {{departure.airport}}
+            %span.time {{departure.time}}
+          .arrival
+            Arrival :
+            %span.airport {{arrival.airport}}
+            %span.time {{arrival.time}}
+        {{/flights}}
+        {{^flights}}
+        .no-match No Flights Found
+        {{/flights}}

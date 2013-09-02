@@ -7,12 +7,23 @@
     - Calatrava::Project.current.mobile_web.scripts.each do |filename|
       %script(type="text/javascript" src="#{filename}")
 
+    %link(href="styles/mobile-web.css" rel="stylesheet" type="text/css")
+
   %body
-    %div#app_container.container
-      - Calatrava::Project.current.mobile_web.haml_files.each do |hf|
-        = render_partial hf
+
+    #loader
+      .box
+        .loaderimg
+        .text Loading...
+
+    .viewport
+      %button#goHome.home-button
+
+      %div#app_container.container
+        - Calatrava::Project.current.mobile_web.haml_files.each do |hf|
+          = render_partial hf
 
   :javascript
     $(document).ready(function(){
-      example.converter.start();      
+        tripbuddy.home.start();
     });
