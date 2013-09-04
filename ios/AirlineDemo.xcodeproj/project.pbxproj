@@ -50,7 +50,7 @@
 		84AAD6295E644F188F9C4C41 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		8E919D29D2AE4F27A89232EB /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = SOURCE_ROOT; };
 		B7EAB370C83E454C8DE00D92 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = src/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		CA1533EA04E046498110B936 /* libAirlineDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAirlineDemo.a; path = AirlineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1533EA04E046498110B936 /* AirlineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirlineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA09A361734463E9F5BBB4B /* ConversionFormViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConversionFormViewController.xib; path = src/ConversionFormViewController.xib; sourceTree = SOURCE_ROOT; };
 		CEAD8FE292D9447899D1C63C /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		D5429F7B04BA4FC893DB4FC7 /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/AppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -114,7 +114,7 @@
 		73E471EF9DEF4169B7CD7992 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA1533EA04E046498110B936 /* libAirlineDemo.a */,
+				CA1533EA04E046498110B936 /* AirlineDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			);
 			name = AirlineDemo;
 			productName = AirlineDemo;
-			productReference = CA1533EA04E046498110B936 /* libAirlineDemo.a */;
+			productReference = CA1533EA04E046498110B936 /* AirlineDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

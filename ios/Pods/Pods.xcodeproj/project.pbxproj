@@ -10,633 +10,14 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>08007E70CAB24CFC85089B2D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WebViewController.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Shell/WebViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0976BE3895014BA58B97077B</key>
+		<key>04E30CDDE59D432F920EFEE1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B175248C07B941B6A4340F78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0A5749013BCD4723AE0C0D9A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6E88C70AC50E4F468137ACCF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0B04D61DC501468CA57D2DC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RegisteredPlugin.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/RegisteredPlugin.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0E0F20B20D1E4936B577C70D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TWBridgeURLRequestManager.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/AJAXConnection/TWBridgeURLRequestManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0E8B0A5BF6384BDC8C7F2020</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E929B4289CD2472487F13248</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>119D8CF3EE6B4A74B2AE8BC7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CalatravaAppDelegate.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/CalatravaAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>164241493AAA4BA092DF1660</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>184BF00DE6EA4349971C71E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AlertPlugin.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/AlertPlugin.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1984E10413304CCCBD6ECBAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AJAXConnection.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/AJAXConnection/AJAXConnection.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1CC09EE9307B4D369176A990</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1D264DEE2FAC4C14892529B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PluginRegistry.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/PluginRegistry.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>221FCE689BF54CC4A835021B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>calatrava_ios.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/calatrava_ios.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>223BDC1D080E44B59BEA059E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JsRuntime.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/JsRuntime.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>28C774B8848D4CC78F34848B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2E07EB1C48B74595B2AB0F0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>KernelBridge.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/KernelBridge.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2E1380F048B74D9BB4745395</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6BF2CE8A54B54789BF5CCE96</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2F8EC7C763014C268CD32F86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PluginRegistry.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/PluginRegistry.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>34F0003E056A489A896EFC7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BaseUIViewController.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Base/BaseUIViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>358F4AF321094FF0881A4EC7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5437625018C94B4EAF5F5A19</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2E1380F048B74D9BB4745395</string>
-				<string>F79DF69EC9F241EC88CB2E43</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>43EB053734E742FEA59D2412</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>A7E7CB6C52024153953FF489</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>38F00E8BD19243DBBC7988BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>396FF7D529F94391B122C223</key>
-		<dict>
-			<key>fileRef</key>
-			<string>221FCE689BF54CC4A835021B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>3982E4D6202F488C8EE7095F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TWBridgePageRegistry.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/TWBridgePageRegistry.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3D4F403BB35D452E84100CC6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5BEE9E9328664A61B10E379A</string>
-				<string>E46EE1C74DE94E00A7A4F0F2</string>
-				<string>E475C66CF5C14B049E4BA7D2</string>
-				<string>FCADA81A75DD418AABE61E1C</string>
-				<string>F6CC8C324FB24F78B868D0C2</string>
-				<string>FF2E733CEF974756BFA1AAF7</string>
-				<string>8FD8D92B711B46048357A33E</string>
-				<string>A65C49DD2C1545A8B8A17B85</string>
-				<string>FF3226535EE148D3B881DEDC</string>
-				<string>58DB1273C80F42078209A7D7</string>
-				<string>D2B7EFCB36364AA5BB6F6615</string>
-				<string>A14E9E188434423EACE4A652</string>
-				<string>51DD5070A0BE4F56BBFF6752</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3D549D5AA6CD4CAFB408F4FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3E03961F6EC4083AE5B7600</string>
-				<string>875515CC58454B3E96C9B09D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>calatrava</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41E4672F7C1E49938CF172CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>42476EC738B54B659ECC74C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D27C0D8CF01A4EFC8A6E0878</string>
+			<string>72A7109D7F9C45F68ECF2EC7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>43EB053734E742FEA59D2412</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>467C614E3B4F4279B6762CED</string>
-			<key>targetProxy</key>
-			<string>FADAC5FE9CD54C6CA4F300F5</string>
-		</dict>
-		<key>450D2A98B54549A99F6E48DC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7BBB65D940D641A189896F4A</string>
-				<string>41E4672F7C1E49938CF172CF</string>
-				<string>484AF98314AA4C1688F20C04</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>467C614E3B4F4279B6762CED</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A0E0FB2DBE624F06A5B357D1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AEDD713A1F964A22B5DA7128</string>
-				<string>0E8B0A5BF6384BDC8C7F2020</string>
-				<string>3D4F403BB35D452E84100CC6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-calatrava</string>
-			<key>productName</key>
-			<string>Pods-calatrava</string>
-			<key>productReference</key>
-			<string>755919308E52466DAB6DC068</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>475829D3BF944E66A41EBD58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-calatrava.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>47662CA3AC6A451BAC8A9BC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WebRuntime.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/WebRuntime.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>483527FD08AB404EA04665B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BaseUIViewController.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Base/BaseUIViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>484AF98314AA4C1688F20C04</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>490E0A419003491FAAAA168A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-calatrava-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>51DD5070A0BE4F56BBFF6752</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08007E70CAB24CFC85089B2D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51E2C74A22BA41D19A8F3F09</key>
-		<dict>
-			<key>fileRef</key>
-			<string>755919308E52466DAB6DC068</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5437625018C94B4EAF5F5A19</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0A5749013BCD4723AE0C0D9A</string>
-				<string>DF63B473E3B4497B826C9FA0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>58DB1273C80F42078209A7D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>792FDA436DB24B1CA5AB4579</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5BEE9E9328664A61B10E379A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34F0003E056A489A896EFC7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CDD2BC8BB2849009B354BEC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>webRuntimeBridge.js</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/webRuntimeBridge.js</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6B5E8290AB1A4D4389BE5BDD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F8EC7C763014C268CD32F86</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6BF2CE8A54B54789BF5CCE96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38F00E8BD19243DBBC7988BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D41D8EE82E1430DA08CC7CF</key>
+		<key>06BFDCA2C9E34018B093C9D3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -651,33 +32,34 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>6E88C70AC50E4F468137ACCF</key>
+		<key>0B4829559A6242BC89142DB0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8960129A92554708BD78E716</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>0D56D02074134CD3816EFD22</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>TWBridgePageRegistry.m</string>
 			<key>path</key>
-			<string>Pods.xcconfig</string>
+			<string>calatrava/calatrava-ios/Bridge/TWBridgePageRegistry.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>755919308E52466DAB6DC068</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-calatrava.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>792FDA436DB24B1CA5AB4579</key>
+		<key>0EBA20C5580A491784CC1703</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -685,312 +67,29 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TWBridgePageRegistry.h</string>
 			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/TWBridgePageRegistry.h</string>
+			<string>Pods-environment.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>7ADBDE2D4C3246E3882EB389</key>
+		<key>189ABC7E46FF46F5B71CBC64</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>webRuntime.html</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/webRuntime.html</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7B49EF0BAD0D46BFA1FEF9EC</key>
-		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>9B195F1F842047138F0630C4</string>
-				<string>E00FEDAE5EB9427BB0DBC8BA</string>
+				<string>B2D74427BCDB445498599ED4</string>
+				<string>D81777C57DC54F639077271E</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BBB65D940D641A189896F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>840217C88C5E4495BE9685BD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>854CCD11C55C447E9DE92B37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>868C0F90ACB7474FA3883E04</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3982E4D6202F488C8EE7095F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>875515CC58454B3E96C9B09D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AC0DAA2499004986BFB7CD6A</string>
-				<string>7ADBDE2D4C3246E3882EB389</string>
-				<string>5CDD2BC8BB2849009B354BEC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FD8D92B711B46048357A33E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B20C85BF15684B56A742F4A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>94624193EB194798AD74AB4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2E07EB1C48B74595B2AB0F0C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>998D3CD909414BDA9E6764D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AlertPlugin.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/AlertPlugin.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>99A3D49769214119A9C32F12</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3D549D5AA6CD4CAFB408F4FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B195F1F842047138F0630C4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>475829D3BF944E66A41EBD58</string>
-				<string>490E0A419003491FAAAA168A</string>
-				<string>BE51F088D62B4D8FA1D6ACCF</string>
-				<string>D27C0D8CF01A4EFC8A6E0878</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-calatrava</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C3154370D8747A0A0925D79</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>E4C649BBC49047A499BB4642</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>D4FA7C41AF9042008E3F5E40</string>
-			<key>productRefGroup</key>
-			<string>A76DC3ED798C40F9A60BFF8B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>467C614E3B4F4279B6762CED</string>
-				<string>358F4AF321094FF0881A4EC7</string>
-			</array>
 		</dict>
-		<key>9EF5AB695D694EE5A1BD9CD2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>184BF00DE6EA4349971C71E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A0E0FB2DBE624F06A5B357D1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A7AF4F0CAB04455BA03109BA</string>
-				<string>B541613A3BCA4B0DB4E3B91F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A14E9E188434423EACE4A652</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D41D8EE82E1430DA08CC7CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3E03961F6EC4083AE5B7600</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>34F0003E056A489A896EFC7B</string>
-				<string>483527FD08AB404EA04665B7</string>
-				<string>1984E10413304CCCBD6ECBAC</string>
-				<string>B7EA03C2285B47FFA76296D0</string>
-				<string>0E0F20B20D1E4936B577C70D</string>
-				<string>E298115FF3DA4F0E825B82AA</string>
-				<string>998D3CD909414BDA9E6764D4</string>
-				<string>184BF00DE6EA4349971C71E6</string>
-				<string>119D8CF3EE6B4A74B2AE8BC7</string>
-				<string>223BDC1D080E44B59BEA059E</string>
-				<string>B20C85BF15684B56A742F4A1</string>
-				<string>2E07EB1C48B74595B2AB0F0C</string>
-				<string>1D264DEE2FAC4C14892529B5</string>
-				<string>2F8EC7C763014C268CD32F86</string>
-				<string>0B04D61DC501468CA57D2DC0</string>
-				<string>792FDA436DB24B1CA5AB4579</string>
-				<string>3982E4D6202F488C8EE7095F</string>
-				<string>47662CA3AC6A451BAC8A9BC1</string>
-				<string>B175248C07B941B6A4340F78</string>
-				<string>6D41D8EE82E1430DA08CC7CF</string>
-				<string>221FCE689BF54CC4A835021B</string>
-				<string>08007E70CAB24CFC85089B2D</string>
-				<string>E7ED7E4474694004826F58E9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Source Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A65C49DD2C1545A8B8A17B85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D264DEE2FAC4C14892529B5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A76DC3ED798C40F9A60BFF8B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>755919308E52466DAB6DC068</string>
-				<string>A7E7CB6C52024153953FF489</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7A59B8E80E94FC686D619DA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7ED7E4474694004826F58E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A7AF4F0CAB04455BA03109BA</key>
+		<key>1B84C03970AC4CE3AB7BD140</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>490E0A419003491FAAAA168A</string>
+			<string>F5DB5487C63442CB90806167</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -998,31 +97,30 @@
 				<key>ARCHS</key>
 				<string>$(ARCHS_STANDARD_32_BIT)</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>DSTROOT</key>
 				<string>/tmp/xcodeproj.dst</string>
 				<key>GCC_C_LANGUAGE_STANDARD</key>
 				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-calatrava-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
 				<key>GCC_VERSION</key>
 				<string>com.apple.compilers.llvm.clang.1_0</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>5.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>PRODUCT_NAME</key>
@@ -1033,97 +131,16 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
-		<key>A7E7CB6C52024153953FF489</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AC0DAA2499004986BFB7CD6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>embeddedBridge.js</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/embeddedBridge.js</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AEDD713A1F964A22B5DA7128</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CA221F5C9CD7478A9A30C950</string>
-				<string>EF2C7E3E25FB42CA831AEA72</string>
-				<string>C637D2296C994FADA296A71A</string>
-				<string>9EF5AB695D694EE5A1BD9CD2</string>
-				<string>94624193EB194798AD74AB4A</string>
-				<string>6B5E8290AB1A4D4389BE5BDD</string>
-				<string>868C0F90ACB7474FA3883E04</string>
-				<string>0976BE3895014BA58B97077B</string>
-				<string>396FF7D529F94391B122C223</string>
-				<string>A7A59B8E80E94FC686D619DA</string>
-				<string>42476EC738B54B659ECC74C9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B175248C07B941B6A4340F78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>WebRuntime.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/WebRuntime.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B20C85BF15684B56A742F4A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KernelBridge.h</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/KernelBridge.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B541613A3BCA4B0DB4E3B91F</key>
+		<key>1D83498694DB4C5FB9AB5108</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>490E0A419003491FAAAA168A</string>
+			<string>8F105A4A188B4B91B34C2214</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -1173,14 +190,62 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B736524147C145E081A0E6DF</key>
+		<key>22F21C41BF1E41FFA0998C6D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-calatrava.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>23A393BAC5654BB88F9040AD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>41E4672F7C1E49938CF172CF</string>
+			<string>3EDECC9FB2F54E1B8D108208</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>B7EA03C2285B47FFA76296D0</key>
+		<key>2575240AD52D4094BE5FCF30</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-calatrava.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>26DC59BBBB4D4D31900C0F4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JsRuntime.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/JsRuntime.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>29D1F10DF73C403289F3B626</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3221067C4554453ABEC8F117</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2C73B43DF2694CC497F86803</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1189,13 +254,153 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>AJAXConnection.m</string>
+			<string>PluginRegistry.m</string>
 			<key>path</key>
-			<string>calatrava/calatrava-ios/Bridge/AJAXConnection/AJAXConnection.m</string>
+			<string>calatrava/calatrava-ios/Bridge/PluginRegistry.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>BAD46A37623F4AB5A29C344E</key>
+		<key>2EDC44401F4E45E1A0F12C5A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>B086B67E85D94192BEE635DD</string>
+			<key>targetProxy</key>
+			<string>B6EF37BE9D424F368E89867C</string>
+		</dict>
+		<key>2FD5795AE11A4C1AB2456DCC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BD1ADB09D8F244BD80BD417F</string>
+				<string>A5850ED494914CA59D539BFD</string>
+				<string>640632B002FE4B6BB6A384CF</string>
+				<string>51C076E779B946DA98872AD4</string>
+				<string>D44E808ACCEC4473889C6780</string>
+				<string>E028F19D56F04BB5B891E260</string>
+				<string>E1B6B74EFCCF4E6BB5003066</string>
+				<string>F4B67CB0AE8842B7B3C88D15</string>
+				<string>E4CC9649BED7475890D7C66F</string>
+				<string>31138E1378A1472F9C4277EB</string>
+				<string>30EDA0413CD1459BB4D18334</string>
+				<string>4F53F1389FD547CD80835E70</string>
+				<string>D538FC1261AF49B7A5949AA8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>30EDA0413CD1459BB4D18334</key>
+		<dict>
+			<key>fileRef</key>
+			<string>462FC15F7EB240CABB298B49</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>31138E1378A1472F9C4277EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8DFB20554E3A4E53852CEA76</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>317E967302CF4A66B7844FAD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>31DD061A9338460FAC31A54D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C9FD183A6C984872B995CC7F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8D11C5AD778C48DEB2719150</string>
+				<string>189ABC7E46FF46F5B71CBC64</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2EDC44401F4E45E1A0F12C5A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>5CCD6DE15DCA4B708BDFDEAD</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>3221067C4554453ABEC8F117</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3406EC258C1D45EC8F55CF48</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>WebViewController.m</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Shell/WebViewController.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>362338CF06444F0082AA21D0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C73B43DF2694CC497F86803</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>39222B1409C2441EB1822B44</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>webRuntime.html</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/webRuntime.html</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3981682B3FF44FE782E7855B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1212,7 +417,20 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BE51F088D62B4D8FA1D6ACCF</key>
+		<key>3A9B64F7C029406684374141</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3CE9DDC3C0644B6F8FB92F0F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1220,36 +438,14 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PluginRegistry.h</string>
 			<key>path</key>
-			<string>Pods-calatrava-prefix.pch</string>
+			<string>calatrava/calatrava-ios/Bridge/PluginRegistry.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>C637D2296C994FADA296A71A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E298115FF3DA4F0E825B82AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>CA221F5C9CD7478A9A30C950</key>
-		<dict>
-			<key>fileRef</key>
-			<string>483527FD08AB404EA04665B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D27C0D8CF01A4EFC8A6E0878</key>
+		<key>3EDECC9FB2F54E1B8D108208</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1262,46 +458,105 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>D2B7EFCB36364AA5BB6F6615</key>
+		<key>462FC15F7EB240CABB298B49</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WebRuntime.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/WebRuntime.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>4F53F1389FD547CD80835E70</key>
 		<dict>
 			<key>fileRef</key>
-			<string>47662CA3AC6A451BAC8A9BC1</string>
+			<string>06BFDCA2C9E34018B093C9D3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>D4FA7C41AF9042008E3F5E40</key>
+		<key>4F8344BE9E1B429CB364CE29</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>4FF80BD126904BB1BD08537E</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>450D2A98B54549A99F6E48DC</string>
-				<string>99A3D49769214119A9C32F12</string>
-				<string>A76DC3ED798C40F9A60BFF8B</string>
-				<string>7B49EF0BAD0D46BFA1FEF9EC</string>
-				<string>BAD46A37623F4AB5A29C344E</string>
+				<string>5C9C052397D34AC4AA1B501C</string>
+				<string>39222B1409C2441EB1822B44</string>
+				<string>CA74281ACC4D4200A1F3984E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF124A5172EA4D06856F86A1</key>
+		<key>51C076E779B946DA98872AD4</key>
 		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
+			<key>fileRef</key>
+			<string>8859135860EB445A85C3F6EA</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>DF63B473E3B4497B826C9FA0</key>
+		<key>529E3CFC402A448485B1B6CE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3406EC258C1D45EC8F55CF48</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>5C9C052397D34AC4AA1B501C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>embeddedBridge.js</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/embeddedBridge.js</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>5CCD6DE15DCA4B708BDFDEAD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>60D621C7D42A484596984E62</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6E88C70AC50E4F468137ACCF</string>
+			<string>F5DB5487C63442CB90806167</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -1309,30 +564,29 @@
 				<key>ARCHS</key>
 				<string>$(ARCHS_STANDARD_32_BIT)</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>DSTROOT</key>
 				<string>/tmp/xcodeproj.dst</string>
 				<key>GCC_C_LANGUAGE_STANDARD</key>
 				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
 				<key>GCC_VERSION</key>
 				<string>com.apple.compilers.llvm.clang.1_0</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>5.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>PRODUCT_NAME</key>
@@ -1343,22 +597,43 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Release</string>
 		</dict>
-		<key>E00FEDAE5EB9427BB0DBC8BA</key>
+		<key>6224389947E343A1A3F1B62A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CAB587D42E234331BA05C5CF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>640632B002FE4B6BB6A384CF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>870C7CA53985430CB10484C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>672B4720DB5D40DE9F78CDF2</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6E88C70AC50E4F468137ACCF</string>
-				<string>164241493AAA4BA092DF1660</string>
-				<string>854CCD11C55C447E9DE92B37</string>
-				<string>28C774B8848D4CC78F34848B</string>
-				<string>1CC09EE9307B4D369176A990</string>
-				<string>38F00E8BD19243DBBC7988BF</string>
+				<string>F5DB5487C63442CB90806167</string>
+				<string>0EBA20C5580A491784CC1703</string>
+				<string>3A9B64F7C029406684374141</string>
+				<string>4F8344BE9E1B429CB364CE29</string>
+				<string>317E967302CF4A66B7844FAD</string>
+				<string>72A7109D7F9C45F68ECF2EC7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1367,7 +642,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E298115FF3DA4F0E825B82AA</key>
+		<key>6B941223ADBF443DB888BA62</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1382,60 +657,10 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>E46EE1C74DE94E00A7A4F0F2</key>
+		<key>6C2A7CFCCBAC49A381B2823A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1984E10413304CCCBD6ECBAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E475C66CF5C14B049E4BA7D2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E0F20B20D1E4936B577C70D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E4C649BBC49047A499BB4642</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DF124A5172EA4D06856F86A1</string>
-				<string>840217C88C5E4495BE9685BD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E7ED7E4474694004826F58E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>WebViewController.m</string>
-			<key>path</key>
-			<string>calatrava/calatrava-ios/Shell/WebViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E929B4289CD2472487F13248</key>
-		<dict>
-			<key>fileRef</key>
-			<string>41E4672F7C1E49938CF172CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF2C7E3E25FB42CA831AEA72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7EA03C2285B47FFA76296D0</string>
+			<string>0D56D02074134CD3816EFD22</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1444,63 +669,838 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>F6CC8C324FB24F78B868D0C2</key>
+		<key>6D19DE1566004C0599E157F6</key>
 		<dict>
-			<key>fileRef</key>
-			<string>119D8CF3EE6B4A74B2AE8BC7</string>
+			<key>children</key>
+			<array>
+				<string>FF892618FBA04313897D8AE3</string>
+				<string>C2F34B5B796A4A45A07150CF</string>
+				<string>FC634FAFC2304CA88DFDEA8C</string>
+				<string>D448EBC45889468A8D63860B</string>
+				<string>3981682B3FF44FE782E7855B</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F79DF69EC9F241EC88CB2E43</key>
+		<key>72A7109D7F9C45F68ECF2EC7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>74E78A12FA92437383A5EE68</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>828E9785505147819FCBB45C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>22F21C41BF1E41FFA0998C6D</string>
+				<string>8F105A4A188B4B91B34C2214</string>
+				<string>A97907F79492489B872A234C</string>
+				<string>3EDECC9FB2F54E1B8D108208</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-calatrava</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8420CE4F1ECD45DE98AC7D11</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AJAXConnection.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/AJAXConnection/AJAXConnection.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>870C7CA53985430CB10484C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TWBridgeURLRequestManager.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/AJAXConnection/TWBridgeURLRequestManager.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8859135860EB445A85C3F6EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AlertPlugin.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/AlertPlugin.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8960129A92554708BD78E716</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AlertPlugin.m</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/AlertPlugin.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8D11C5AD778C48DEB2719150</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>B736524147C145E081A0E6DF</string>
-				<string>51E2C74A22BA41D19A8F3F09</string>
+				<string>04E30CDDE59D432F920EFEE1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8DFB20554E3A4E53852CEA76</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TWBridgePageRegistry.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/TWBridgePageRegistry.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8F105A4A188B4B91B34C2214</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-calatrava-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>902FB8FBC7A641219BBC975D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>KernelBridge.m</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/KernelBridge.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>921EC19F3E4C4FCB9F9E3854</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>WebRuntime.m</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/WebRuntime.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>963FC259994448528AF5DBE5</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0450</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>FDA29B92978B492198A28287</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>6D19DE1566004C0599E157F6</string>
+			<key>productRefGroup</key>
+			<string>FC634FAFC2304CA88DFDEA8C</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>B086B67E85D94192BEE635DD</string>
+				<string>31DD061A9338460FAC31A54D</string>
+			</array>
+		</dict>
+		<key>9D30414AEC6C49E78D4F5E20</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BFEEBE034A1C4104824BC0A5</string>
+				<string>1D83498694DB4C5FB9AB5108</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A1D266200A604B489088A5AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RegisteredPlugin.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/RegisteredPlugin.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A40ED256E6E54986BB0192B7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>921EC19F3E4C4FCB9F9E3854</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>A5850ED494914CA59D539BFD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8420CE4F1ECD45DE98AC7D11</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A73A49378F294F9283EE78CB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CAC007F5CE3145E098C192E6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>A92F52C7668640FCBE81D010</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KernelBridge.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/KernelBridge.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A97907F79492489B872A234C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-calatrava-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AE651A48E7C646BD8D846CFB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>29D1F10DF73C403289F3B626</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>FADAC5FE9CD54C6CA4F300F5</key>
+		<key>B086B67E85D94192BEE635DD</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9D30414AEC6C49E78D4F5E20</string>
+			<key>buildPhases</key>
+			<array>
+				<string>EB9995DD30DF4BC89CEAAAFF</string>
+				<string>AE651A48E7C646BD8D846CFB</string>
+				<string>2FD5795AE11A4C1AB2456DCC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-calatrava</string>
+			<key>productName</key>
+			<string>Pods-calatrava</string>
+			<key>productReference</key>
+			<string>2575240AD52D4094BE5FCF30</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>B2D74427BCDB445498599ED4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3221067C4554453ABEC8F117</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B453F42E41584AB0BD319789</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B941223ADBF443DB888BA62</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>B6810C68784F48F78097D9DE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CalatravaAppDelegate.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/CalatravaAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B6EF37BE9D424F368E89867C</key>
 		<dict>
 			<key>containerPortal</key>
-			<string>9C3154370D8747A0A0925D79</string>
+			<string>963FC259994448528AF5DBE5</string>
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>467C614E3B4F4279B6762CED</string>
+			<string>B086B67E85D94192BEE635DD</string>
 			<key>remoteInfo</key>
 			<string>Pods-calatrava</string>
 		</dict>
-		<key>FCADA81A75DD418AABE61E1C</key>
+		<key>B9B53089B54C46BB94D7E922</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F57AC2F7F46D4294B64F7F72</string>
+				<string>CAC007F5CE3145E098C192E6</string>
+				<string>8420CE4F1ECD45DE98AC7D11</string>
+				<string>CAB587D42E234331BA05C5CF</string>
+				<string>870C7CA53985430CB10484C1</string>
+				<string>6B941223ADBF443DB888BA62</string>
+				<string>8859135860EB445A85C3F6EA</string>
+				<string>8960129A92554708BD78E716</string>
+				<string>B6810C68784F48F78097D9DE</string>
+				<string>26DC59BBBB4D4D31900C0F4E</string>
+				<string>A92F52C7668640FCBE81D010</string>
+				<string>902FB8FBC7A641219BBC975D</string>
+				<string>3CE9DDC3C0644B6F8FB92F0F</string>
+				<string>2C73B43DF2694CC497F86803</string>
+				<string>A1D266200A604B489088A5AA</string>
+				<string>8DFB20554E3A4E53852CEA76</string>
+				<string>0D56D02074134CD3816EFD22</string>
+				<string>462FC15F7EB240CABB298B49</string>
+				<string>921EC19F3E4C4FCB9F9E3854</string>
+				<string>06BFDCA2C9E34018B093C9D3</string>
+				<string>C4F4249273AC409F9EAC446F</string>
+				<string>F08B4C1A3AD34AC9B2FC4CA9</string>
+				<string>3406EC258C1D45EC8F55CF48</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Source Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BD1ADB09D8F244BD80BD417F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>998D3CD909414BDA9E6764D4</string>
+			<string>F57AC2F7F46D4294B64F7F72</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>FF2E733CEF974756BFA1AAF7</key>
+		<key>BFEEBE034A1C4104824BC0A5</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8F105A4A188B4B91B34C2214</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-calatrava-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C2F34B5B796A4A45A07150CF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F99CA766CFCF412D9A742E38</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4F4249273AC409F9EAC446F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>calatrava_ios.m</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/calatrava_ios.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C9FD183A6C984872B995CC7F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>60D621C7D42A484596984E62</string>
+				<string>1B84C03970AC4CE3AB7BD140</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CA74281ACC4D4200A1F3984E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>webRuntimeBridge.js</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/webRuntimeBridge.js</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CAB587D42E234331BA05C5CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AJAXConnection.m</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Bridge/AJAXConnection/AJAXConnection.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CAC007F5CE3145E098C192E6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>BaseUIViewController.m</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Base/BaseUIViewController.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D448EBC45889468A8D63860B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>828E9785505147819FCBB45C</string>
+				<string>672B4720DB5D40DE9F78CDF2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D44E808ACCEC4473889C6780</key>
 		<dict>
 			<key>fileRef</key>
-			<string>223BDC1D080E44B59BEA059E</string>
+			<string>B6810C68784F48F78097D9DE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>FF3226535EE148D3B881DEDC</key>
+		<key>D538FC1261AF49B7A5949AA8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0B04D61DC501468CA57D2DC0</string>
+			<string>F08B4C1A3AD34AC9B2FC4CA9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>D81777C57DC54F639077271E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2575240AD52D4094BE5FCF30</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D851575FE19049C9AC7A595A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E028F19D56F04BB5B891E260</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26DC59BBBB4D4D31900C0F4E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E1B6B74EFCCF4E6BB5003066</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A92F52C7668640FCBE81D010</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E436F8A50E0F485094AA6352</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E4CC9649BED7475890D7C66F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A1D266200A604B489088A5AA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E86045B246664BDC810E2854</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C4F4249273AC409F9EAC446F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>EB9995DD30DF4BC89CEAAAFF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A73A49378F294F9283EE78CB</string>
+				<string>6224389947E343A1A3F1B62A</string>
+				<string>B453F42E41584AB0BD319789</string>
+				<string>0B4829559A6242BC89142DB0</string>
+				<string>F4BB7C92607240E49DC8F479</string>
+				<string>362338CF06444F0082AA21D0</string>
+				<string>6C2A7CFCCBAC49A381B2823A</string>
+				<string>A40ED256E6E54986BB0192B7</string>
+				<string>E86045B246664BDC810E2854</string>
+				<string>529E3CFC402A448485B1B6CE</string>
+				<string>23A393BAC5654BB88F9040AD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F08B4C1A3AD34AC9B2FC4CA9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WebViewController.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Shell/WebViewController.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F49ACE6A812C463582EDB193</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>F4B67CB0AE8842B7B3C88D15</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CE9DDC3C0644B6F8FB92F0F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F4BB7C92607240E49DC8F479</key>
+		<dict>
+			<key>fileRef</key>
+			<string>902FB8FBC7A641219BBC975D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>F57AC2F7F46D4294B64F7F72</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BaseUIViewController.h</string>
+			<key>path</key>
+			<string>calatrava/calatrava-ios/Base/BaseUIViewController.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F5DB5487C63442CB90806167</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F99CA766CFCF412D9A742E38</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B9B53089B54C46BB94D7E922</string>
+				<string>4FF80BD126904BB1BD08537E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>calatrava</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC634FAFC2304CA88DFDEA8C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2575240AD52D4094BE5FCF30</string>
+				<string>5CCD6DE15DCA4B708BDFDEAD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDA29B92978B492198A28287</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D851575FE19049C9AC7A595A</string>
+				<string>E436F8A50E0F485094AA6352</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FF892618FBA04313897D8AE3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F49ACE6A812C463582EDB193</string>
+				<string>3221067C4554453ABEC8F117</string>
+				<string>74E78A12FA92437383A5EE68</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>9C3154370D8747A0A0925D79</string>
+	<string>963FC259994448528AF5DBE5</string>
 </dict>
 </plist>
