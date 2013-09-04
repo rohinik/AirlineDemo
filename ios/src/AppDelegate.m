@@ -23,7 +23,7 @@
 
   KernelBridge *kernel = [KernelBridge sharedKernel];
   [kernel startWith:self.rootNavController];
-  [kernel launch:@"example.converter.start"];
+  [kernel launch:@"tripbuddy.home.start"];
   
   return YES;
 }

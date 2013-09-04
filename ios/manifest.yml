@@ -1,4 +1,8 @@
 features:
+  - home
+  - flightStatus
+  - loungeSelector
+  - flightSearch
   - converter
 kernel_libs:
 #  - assets/lib/underscore.js
