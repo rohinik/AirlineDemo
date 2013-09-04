@@ -1,5 +1,8 @@
 artifacts/
 config/result/
+droid/*/ant/
+droid/*/ivy/
+droid/*/assets/calatrava/
 droid/*/bin/
 droid/*/gen/
 node_modules/
