@@ -1,18 +1,18 @@
 //
-//  HomePageViewController.m
+//  LoungeListingViewController.m
 //  AirlineDemo
 //
 //  Created by Rohini on 04/09/13.
 //
 //
 
-#import "HomePageViewController.h"
+#import "LoungeListingViewController.h"
 
-@interface HomePageViewController ()
+@interface LoungeListingViewController ()
 
 @end
 
-@implementation HomePageViewController
+@implementation LoungeListingViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -20,8 +20,7 @@
     if (self) {
         // Custom initialization
     }
-    self.navigationItem.hidesBackButton = YES;
-    self.title = @"Home";
+    self.title = @"Lounge Listing";
     return self;
 }
 
@@ -38,7 +37,7 @@
 }
 - (NSString *) pageName
 {
-    return @"homePage";
+    return @"loungeListing";
 }
 
 @end

@@ -1,18 +1,18 @@
 //
-//  HomePageViewController.m
+//  FlightSearchViewController.m
 //  AirlineDemo
 //
 //  Created by Rohini on 04/09/13.
 //
 //
 
-#import "HomePageViewController.h"
+#import "FlightSearchViewController.h"
 
-@interface HomePageViewController ()
+@interface FlightSearchViewController ()
 
 @end
 
-@implementation HomePageViewController
+@implementation FlightSearchViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -20,8 +20,7 @@
     if (self) {
         // Custom initialization
     }
-    self.navigationItem.hidesBackButton = YES;
-    self.title = @"Home";
+    self.title = @"Flight Search";
     return self;
 }
 
@@ -38,7 +37,8 @@
 }
 - (NSString *) pageName
 {
-    return @"homePage";
+    return @"flightSearch";
 }
+
 
 @end

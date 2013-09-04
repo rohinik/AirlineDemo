@@ -10,6 +10,12 @@
 		0047FE4DE4504865B2B3DF5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA8688E362C454987F36E0F /* CoreGraphics.framework */; };
 		08892D1417D7925800F83186 /* HomePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08892D1217D7925800F83186 /* HomePageViewController.h */; };
 		08892D1517D7925800F83186 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08892D1317D7925800F83186 /* HomePageViewController.m */; };
+		08892D1817D7946400F83186 /* FlightSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08892D1617D7946400F83186 /* FlightSearchViewController.h */; };
+		08892D1917D7946400F83186 /* FlightSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08892D1717D7946400F83186 /* FlightSearchViewController.m */; };
+		08892D2417D7A1B200F83186 /* FlightStatusQueryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08892D2217D7A1B200F83186 /* FlightStatusQueryViewController.h */; };
+		08892D2517D7A1B200F83186 /* FlightStatusQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08892D2317D7A1B200F83186 /* FlightStatusQueryViewController.m */; };
+		08892D2817D7A1DA00F83186 /* LoungeListingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08892D2617D7A1DA00F83186 /* LoungeListingViewController.h */; };
+		08892D2917D7A1DA00F83186 /* LoungeListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08892D2717D7A1DA00F83186 /* LoungeListingViewController.m */; };
 		0FF1E21A62E04C8EBAA7F5CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760A7DBD28D14864B89A9C08 /* UIKit.framework */; };
 		16C322B006924E38BB42C517 /* ConversionFormViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = CAA09A361734463E9F5BBB4B /* ConversionFormViewController.xib */; };
 		2916AF83A27B4A9189D4950C /* InfoPlist.strings in Sources */ = {isa = PBXBuildFile; fileRef = B7EAB370C83E454C8DE00D92 /* InfoPlist.strings */; };
@@ -28,6 +34,12 @@
 /* Begin PBXFileReference section */
 		08892D1217D7925800F83186 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		08892D1317D7925800F83186 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		08892D1617D7946400F83186 /* FlightSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightSearchViewController.h; sourceTree = "<group>"; };
+		08892D1717D7946400F83186 /* FlightSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightSearchViewController.m; sourceTree = "<group>"; };
+		08892D2217D7A1B200F83186 /* FlightStatusQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightStatusQueryViewController.h; sourceTree = "<group>"; };
+		08892D2317D7A1B200F83186 /* FlightStatusQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightStatusQueryViewController.m; sourceTree = "<group>"; };
+		08892D2617D7A1DA00F83186 /* LoungeListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoungeListingViewController.h; sourceTree = "<group>"; };
+		08892D2717D7A1DA00F83186 /* LoungeListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoungeListingViewController.m; sourceTree = "<group>"; };
 		259A75C486084075BBBA3309 /* public */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = public; sourceTree = SOURCE_ROOT; };
 		3BBD1F4B7B55493CA3D5AF81 /* ConversionFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConversionFormViewController.h; path = src/ConversionFormViewController.h; sourceTree = SOURCE_ROOT; };
 		3E4E7CEEF1E1447E967A773F /* AirlineDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AirlineDemo-Info.plist"; path = "src/AirlineDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -75,6 +87,12 @@
 		5C0E11E150814AC19D3C8F11 = {
 			isa = PBXGroup;
 			children = (
+				08892D2617D7A1DA00F83186 /* LoungeListingViewController.h */,
+				08892D2717D7A1DA00F83186 /* LoungeListingViewController.m */,
+				08892D2217D7A1B200F83186 /* FlightStatusQueryViewController.h */,
+				08892D2317D7A1B200F83186 /* FlightStatusQueryViewController.m */,
+				08892D1617D7946400F83186 /* FlightSearchViewController.h */,
+				08892D1717D7946400F83186 /* FlightSearchViewController.m */,
 				08892D1217D7925800F83186 /* HomePageViewController.h */,
 				08892D1317D7925800F83186 /* HomePageViewController.m */,
 				73E471EF9DEF4169B7CD7992 /* Products */,
@@ -119,6 +137,9 @@
 				2E955B86259949129D50D61E /* AppDelegate.h in Headers */,
 				6BC77E3147094DFAA98DD8EA /* ConversionFormViewController.h in Headers */,
 				08892D1417D7925800F83186 /* HomePageViewController.h in Headers */,
+				08892D1817D7946400F83186 /* FlightSearchViewController.h in Headers */,
+				08892D2417D7A1B200F83186 /* FlightStatusQueryViewController.h in Headers */,
+				08892D2817D7A1DA00F83186 /* LoungeListingViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +263,9 @@
 				2916AF83A27B4A9189D4950C /* InfoPlist.strings in Sources */,
 				A8E8BB5DB66B4D88AD8753CF /* main.m in Sources */,
 				08892D1517D7925800F83186 /* HomePageViewController.m in Sources */,
+				08892D1917D7946400F83186 /* FlightSearchViewController.m in Sources */,
+				08892D2517D7A1B200F83186 /* FlightStatusQueryViewController.m in Sources */,
+				08892D2917D7A1DA00F83186 /* LoungeListingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,18 +1,18 @@
 //
-//  HomePageViewController.m
+//  FlightStatusQueryViewController.m
 //  AirlineDemo
 //
 //  Created by Rohini on 04/09/13.
 //
 //
 
-#import "HomePageViewController.h"
+#import "FlightStatusQueryViewController.h"
 
-@interface HomePageViewController ()
+@interface FlightStatusQueryViewController ()
 
 @end
 
-@implementation HomePageViewController
+@implementation FlightStatusQueryViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -20,8 +20,7 @@
     if (self) {
         // Custom initialization
     }
-    self.navigationItem.hidesBackButton = YES;
-    self.title = @"Home";
+    self.title = @"Flight Status";
     return self;
 }
 
@@ -38,7 +37,7 @@
 }
 - (NSString *) pageName
 {
-    return @"homePage";
+    return @"flightStatusQuery";
 }
 
 @end

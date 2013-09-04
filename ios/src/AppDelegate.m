@@ -13,11 +13,12 @@
   rootVC.view.backgroundColor = [UIColor orangeColor];
 
   self.rootNavController = [[UINavigationController alloc] initWithRootViewController:rootVC];
-  self.rootNavController.navigationBarHidden = YES;
+  self.rootNavController.navigationBarHidden = NO;
     
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   [self.window addSubview:self.rootNavController.view];
   [self.window makeKeyAndVisible];
+  
   
   outstandingAjaxRequests = 0;
 
